@@ -48,6 +48,7 @@ a {
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 18px;
+	border-bottom: 2px solid transparent;
 	-o-transition:.5s;
   	-ms-transition:.5s;
   	-moz-transition:.5s;
@@ -57,6 +58,7 @@ a {
 
 a:hover {
 	color: #F15B31;
+	border-bottom: 2px solid #FFFFFF;
 }
 
 p {
@@ -69,8 +71,35 @@ footer {
 	background-color: #0D2C40;
 	bottom: 0;
 	color: white;
+	text-transform: uppercase;
+	padding: 0 20px;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
 }
 
 .navlink {
 	margin: 0 20px;
+}
+
+.copyright {
+	float: left;
+}
+
+.message {
+	float: right;
+}
+
+.name {
+	color: #F15B31;
+	font-weight: 700;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
 }
