@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Memory Card Game</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Droid+Serif|Raleway:400,500,600,700" rel="stylesheet">
 </head>
+
 <body>
 	<header>
 		<h1>Memory Card Game</h1>
 	</header>
 	<nav>
-		<a href="#" class="navlink">Instructions</a>
-		<a href="#" class="navlink">Game</a>
+		<a href="#instructions" class="navlink">Instructions</a>
+		<a href="#game" class="navlink">Game</a>
 	</nav>
 	<main>
-		<h2>Instructions</h2>
+		<h2 id="instructions">Instructions</h2>
 		<p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaki,Pexoso or simply Pairs, is a card game in which all the cards are laid face down on the surface and two are flipped facing up over each turn. The Objective of the game is to turn over pairs of matching card.</p>	
 
-
         <!-- Where the game happens-->
-		<div id="game-board" class="clearfix"></div>
+		<div id="game-board" class="board clearfix"></div>
+		<button id="start" class="flipper">Start Game</button>
+		<button id="reset">reset</button>
 		<!--Hope it works-->
-		
+
     </main>
     <footer class="clearfix">
     	<p class="message">Coding Overachiever --> <a href="https://www.facebook.com/jaabl" target="_blank">Jaabel</a></p>
     	<!-- <p>Copyright 2017</p> because I know how to follow the rules-->
 		<p class="copyright">Copyright 2017 and Created with &hearts; by <span class="name">GA</span></p>
     </footer>
+
     <script src="js/script.js"></script>
+
 </body>
 </html>
